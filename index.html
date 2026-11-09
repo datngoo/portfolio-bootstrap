@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="A responsive personal portfolio using Bootstrap 5 grid, custom CSS, and accessible JavaScript interactions." name="description"/>
+<meta content="#f8f9fc" name="theme-color"/>
+<title>Dat Ngo | Bootstrap Portfolio</title>
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="Dat Ngo, back to home" class="brand" href="#home"><span aria-hidden="true" class="brand-icon">DN</span><span>Dat Ngo<span class="brand-dot">.</span></span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" id="menu-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="Main navigation" class="site-nav" id="site-nav">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+<button aria-label="Switch to dark theme" class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme" type="button"><span aria-hidden="true" class="theme-icon">☾</span></button>
+</nav>
+</div>
+</header>
+<main id="main-content">
+<section aria-labelledby="hero-title" class="hero" id="home">
+<div class="container hero-grid">
+<div class="hero-copy">
+<span class="eyebrow"><span aria-hidden="true" class="status-dot"></span> LEARNING • BUILDING • CREATING</span>
+<h1 id="hero-title">Hi, I'm <span class="accent-name">Dat Ngo.</span><br/>I build things for the <span class="underlined">web.</span></h1>
+<p class="hero-description">I'm an aspiring front-end developer who loves transforming simple ideas into accessible, responsive, and beautifully designed websites.</p>
+<div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">→</span></a></div>
+<div class="hero-mini"><span aria-hidden="true" class="mini-icon">✦</span><span>Built with HTML, Bootstrap 5, CSS &amp; JavaScript</span></div>
+</div>
+<div aria-label="Decorative illustration of a code editor" class="hero-art" role="img">
+<div aria-hidden="true" class="art-orbit orbit-one"></div><div aria-hidden="true" class="art-orbit orbit-two"></div>
+<div aria-hidden="true" class="art-spark spark-one">✳</div><div aria-hidden="true" class="art-spark spark-two">✦</div>
+<div aria-hidden="true" class="code-window">
+<div class="window-bar"><span class="window-dot coral"></span><span class="window-dot yellow"></span><span class="window-dot green"></span><span class="window-title">hello-world.html</span></div>
+<div class="window-body"><p><span class="line-no">01</span><span class="syntax-muted">&lt;</span><span class="syntax-pink">developer</span><span class="syntax-muted">&gt;</span></p><p><span class="line-no">02</span><span class="indent"></span><span class="syntax-violet">hello</span><span class="syntax-muted">:</span> <span class="syntax-green">"world!"</span></p><p><span class="line-no">03</span><span class="indent"></span><span class="syntax-violet">passion</span><span class="syntax-muted">:</span> <span class="syntax-green">"design"</span></p><p><span class="line-no">04</span><span class="indent"></span><span class="syntax-violet">focus</span><span class="syntax-muted">:</span> <span class="syntax-green">"people"</span></p><p><span class="line-no">05</span><span class="syntax-muted">&lt;/</span><span class="syntax-pink">developer</span><span class="syntax-muted">&gt;</span></p></div>
+</div>
+<div aria-hidden="true" class="floating-pill"><span>✳</span> Open to learning</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="about-title" class="section about-section" id="about"><div class="container about-grid"><div><p class="section-kicker">01 / ABOUT ME</p><h2 class="section-title" id="about-title">A little about <span>my journey.</span></h2></div><div class="about-text"><p>I'm learning how to make the web more useful, welcoming, and enjoyable. I enjoy writing clean code, experimenting with visual design, and solving new challenges one step at a time.</p><p>This portfolio is a learning project built with semantic HTML, Bootstrap 5 responsive grids, custom CSS, and JavaScript. The design is customized rather than based on a ready-made template.</p><a class="text-link" href="#skills">See what I'm learning <span aria-hidden="true">↗</span></a></div></div></section>
+<section aria-labelledby="skills-title" class="section skills-section" id="skills"><div class="container"><div class="section-heading"><div><p class="section-kicker">02 / MY TOOLKIT</p><h2 class="section-title" id="skills-title">Skills I'm <span>growing.</span></h2></div><p>Core web technologies and principles I practice.</p></div><div class="row g-3 g-lg-4"><div class="col-12 col-sm-6 col-lg-3"><article class="skill-card h-100"><div aria-hidden="true" class="skill-icon skill-html">&lt;/&gt;</div><h3>HTML5</h3><p>Semantic structure, accessible content, and meaningful page organization.</p><span class="skill-label">STRUCTURE</span></article></div><div class="col-12 col-sm-6 col-lg-3"><article class="skill-card h-100"><div aria-hidden="true" class="skill-icon skill-css">#</div><h3>CSS3</h3><p>Responsive grids, flexible layouts, visual polish, and smooth interactions.</p><span class="skill-label">DESIGN</span></article></div><div class="col-12 col-sm-6 col-lg-3"><article class="skill-card h-100"><div aria-hidden="true" class="skill-icon skill-js">JS</div><h3>JavaScript</h3><p>Small, useful features that make the website interactive and easy to use.</p><span class="skill-label">INTERACTION</span></article></div><div class="col-12 col-sm-6 col-lg-3"><article class="skill-card h-100"><div aria-hidden="true" class="skill-icon skill-ux">✳</div><h3>Web Accessibility</h3><p>Readable typography, keyboard support, and an inclusive user experience.</p><span class="skill-label">USABILITY</span></article></div></div></div></section>
+<section aria-labelledby="projects-title" class="section projects-section" id="projects"><div class="container"><div class="section-heading projects-heading"><div><p class="section-kicker">03 / SELECTED WORK</p><h2 class="section-title" id="projects-title">Things I've <span>designed.</span></h2></div><p>Sample project concepts created for this portfolio demonstration.</p></div><div aria-label="Filter projects" class="filters" role="group"><button aria-pressed="true" class="filter-button active" data-filter="all" type="button">All projects</button><button aria-pressed="false" class="filter-button" data-filter="web" type="button">Web design</button><button aria-pressed="false" class="filter-button" data-filter="app" type="button">App concepts</button></div><p aria-live="polite" class="sr-only" id="project-status">Showing 3 projects</p><div class="row g-3 g-lg-4"><div class="col-12 col-md-6 col-lg-4 project-item" data-category="web"><article class="project-card h-100"><div class="project-art art-portfolio"><div class="mock-browser"><div class="mock-browser-top"><span></span><span></span><span></span></div><div class="mock-portfolio"><div class="mock-side"><i></i><i></i><i></i></div><div class="mock-content"><b>Design with purpose.</b><em></em><em></em><div class="mock-cta"></div></div></div></div></div><div class="project-body"><div class="project-topline"><span class="project-number">01 / WEB DESIGN</span><span aria-hidden="true" class="project-arrow">↗</span></div><h3>Personal Portfolio</h3><p>A clean, responsive website to showcase skills, interests, and creative projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div></div></article></div><div class="col-12 col-md-6 col-lg-4 project-item" data-category="app"><article class="project-card h-100"><div class="project-art art-tasks"><div class="task-mock"><div class="task-heading"><div class="task-logo">✱</div><div><strong>Daily focus</strong><small>Make today count.</small></div></div><div class="task-row"><span class="task-check done">✓</span><i class="task-line long"></i><span class="task-time">09:00</span></div><div class="task-row"><span class="task-check done">✓</span><i class="task-line medium"></i><span class="task-time">11:30</span></div><div class="task-row"><span class="task-check"></span><i class="task-line short"></i><span class="task-time">14:00</span></div></div></div><div class="project-body"><div class="project-topline"><span class="project-number">02 / APP CONCEPT</span><span aria-hidden="true" class="project-arrow">↗</span></div><h3>Daily Task Planner</h3><p>A friendly to-do app interface concept focused on simplicity and clarity.</p><div class="tags"><span>UI Design</span><span>Layout</span><span>Concept</span></div></div></article></div><div class="col-12 col-md-6 col-lg-4 project-item" data-category="web"><article class="project-card h-100"><div class="project-art art-coffee"><div class="coffee-card"><span class="coffee-sun">☀</span><div aria-hidden="true" class="coffee-mug"><div class="coffee-handle"></div><div class="coffee-liquid"></div></div><strong>GOOD<br/>MORNINGS.</strong><small>A concept for a coffee shop website</small></div></div><div class="project-body"><div class="project-topline"><span class="project-number">03 / WEB DESIGN</span><span aria-hidden="true" class="project-arrow">↗</span></div><h3>Coffee Shop Landing Page</h3><p>A warm, inviting landing page concept with a strong visual hierarchy.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Visual Design</span></div></div></article></div></div><p class="project-note">* These are illustrative concepts, not links to completed client projects. Replace them with your own work as you build your portfolio.</p></div></section>
+<section aria-labelledby="contact-title" class="section contact-section" id="contact"><div class="container contact-panel"><div class="contact-copy"><p class="section-kicker">04 / LET'S CONNECT</p><h2 id="contact-title">Have an idea?<br/><span>Let's make it real.</span></h2><p>I'm always excited to learn, collaborate, and meet other creative people. Feel free to say hello!</p><a class="button button-contact" href="mailto:datngo@gmail.com?subject=Hello%20from%20your%20portfolio">Say hello <span aria-hidden="true">↗</span></a><p class="contact-note">Email: datngo@gmail.com</p></div><div aria-hidden="true" class="contact-decor"><span>✳</span></div></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-logo" href="#home">Dat Ngo<span>.</span></a><p>Designed with Bootstrap &amp; custom CSS ♥</p><p>© <span id="year">2026</span> Dat Ngo</p><a aria-label="Back to the top of the page" class="back-to-top" href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
